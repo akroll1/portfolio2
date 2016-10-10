@@ -17,6 +17,6 @@
     if(!$mail->Send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
     } else {
-    echo "Message sent!";
+    echo "Message sent! Thank you for contacting me, I'll get back to you soon!";
     }
 ?>
